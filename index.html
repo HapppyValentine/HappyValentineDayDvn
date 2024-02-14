@@ -54,20 +54,18 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-      </ul>
-    
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/slide/slide-1.png" alt="Los Angeles" class="img-fluid">
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.png)">
         </div>
+
       </div>
-    
+
     </div>
   </section><!-- End Hero -->
 
