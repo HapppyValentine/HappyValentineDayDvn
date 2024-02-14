@@ -32,7 +32,7 @@ function handleYesClick() {
   changeImage("yes");
 
   // Redirect to www.google.com
-  window.location.href = "MeFamily/index.html";
+  window.location.href = "MeFamily";
 }
 
 // Mengambil tombol yang memiliki ID "yesButton"
